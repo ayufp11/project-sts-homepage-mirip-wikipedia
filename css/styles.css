@@ -1,0 +1,106 @@
+.left-sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f6f6f6;
+  padding: 2px;
+  border-right: 1px solid rgb(167, 215, 249);
+}
+.menu-list {
+  line-height: 2em;
+  margin: 0;
+  padding: .25em 0;
+  font-size: .75em;
+  width: 160px;
+  list-style-type: none;
+}
+.menu-list a {
+  color: #0b0080;
+}
+.navigation {
+  left: 160px;
+  position: fixed;
+  height: 50px;
+  z-index: 1;
+  top: 0;
+  padding: 8px;
+  width: 100%;
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 37%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 37%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 37%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+.logo {
+  max-width: 150px;
+  z-index: 2;
+}
+.content-align {
+    margin: 20px 0 0 200px;
+}
+body {
+
+}
+.top-panel {
+  background-color: #f9f9f9;
+}
+.panel-image {
+  max-width: 200px;
+}
+.panel-body-left-top {
+  background-color: #f5fffa;
+  margin: 10px;
+}
+.panel-header-left-top {
+  background-color: #cef2e0;
+  font-weight: bold;
+  font-size: 120%;
+  border: 1px solid #a3bfb1;
+  padding: 0.2em;
+  margin-top: 10px;
+}
+
+.panel-body-right-top {
+  background-color: #f5faff;
+  margin: 10px;
+}
+.panel-header-right-top {
+  background-color: #cedff2;
+  font-weight: bold;
+  font-size: 120%;
+  border: 1px solid #a3b0bf;
+  padding: 0.2em;
+  margin-top: 10px;
+}
+
+.panel-body-bottom {
+  background-color: #faf5ff;
+}
+.panel-header-bottom {
+  background-color: #afa3bf;
+}
+.panel-image {
+  float: right;
+}
+.whole-line {
+  text-align: left;
+  text-decoration: underline;
+  margin: 0 10px 0 15px;
+}
+ul li {
+  display: inline-block;
+  margin: 0 10px 0 15px;
+}
+
+ul{
+  margin-right:200px;
+}
+.bottom-footer{
+  align-items: center;
+  left: 160px;
+  margin: 0 50px 0 200px;
+  font-size: 0.7em;
+  color: #222;
+}
